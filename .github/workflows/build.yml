@@ -26,8 +26,6 @@ jobs:
 
     - name: Build APK
       run: |
-        # Replace 'main.py' with the main file of your Kivy app
-        #buildozer init
         buildozer android debug
 
     - name: Upload APK
